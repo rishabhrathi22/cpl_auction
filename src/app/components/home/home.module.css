@@ -1,0 +1,220 @@
+.navBar {
+    height: 8vh;
+    background-color: rgb(46, 46, 46);
+}
+
+.homeMainContainer {
+    height: 92vh;
+    padding-top: 30px;
+    background-color: #000000;
+}
+
+.mainHeader {
+    text-align: center;
+    color: white;
+    margin: 20px 0;
+}
+
+.playerContainer {
+    text-align: center;
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    background: #F0A500;
+    padding: 20px 0px;
+    border-radius: 20px;
+}
+
+.playerContainer_title {
+    margin: 0;
+    color: #000000;
+}
+
+.playerContainer_confirmbtn {
+    color: white;
+    background: rgb(61, 230, 61);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 24px;
+    margin: 0 auto;
+    font-size: 18px;
+    padding: 10px 0;
+    width: 95px;
+    display: inline-block;
+    margin: 0 auto;
+    margin-left: 2px;
+    font-family: Oswald;
+}
+
+.playerContainer_subtitle {
+    margin: 0;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.playerContainer_bidInput_label {
+
+}
+
+.playerContainer_bidInput {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 24px;
+    border: 2px solid rgb(0, 0, 0);
+    background: #082032;
+    color: #ebebeb;
+    font-weight: bold;
+    padding: 10px 0;
+    width: 200px;
+}
+
+.playerContainer_clubSelect {
+    margin: 10px 0;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 10px 0px;
+    text-align: center;
+    color: #ebebeb;
+    font-weight: bold;
+    width: 200px;
+    text-indent: 6px;
+    font-family: Oswald;
+    font-size: 15px;
+    background-color: #082032;
+}
+
+.playerContainer_currentPlayer {
+    color: #334756;
+}
+
+.playerContainer_currentPlayer_name {
+    font-weight: bold;
+}
+
+.playerContainer_currentPlayer_image {
+    position: relative;
+}
+
+.playerContainer_currentPlayer_photo {
+    width: 25%;
+    position: relative;
+    z-index: 4;
+}
+
+.playerContainer_currentPlayer_club {
+    width: 24%;
+    position: absolute;
+    left: 37%;
+    right: 0;
+    z-index: 2;
+}
+
+.playerContainer_currentPlayer_data {
+
+}
+
+.nextContainer {
+    margin: 10px auto!important;
+    width: 80%;
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.nextContainer_item {
+    width: 18%;
+    float: left;
+    position: relative;
+}
+
+.nextContainer_item_playerphoto {
+    width: 100%;
+    position: relative;
+    z-index: 4;
+}
+
+.nextContainer_item_clubphoto {
+    width: 100%;
+    position: absolute;
+    right: 0;
+    z-index: 2;
+}
+
+.clubContainer_title {
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.clubContainer {
+    width: 95%;
+    display: block!important;
+    margin: 0 auto!important;
+    padding-bottom: 40px;
+
+}
+
+.clubListContainer {
+}
+
+.clubListContainer_item {
+    padding: 0!important;
+    margin: 0;
+    float: left;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.clubListContainer_item_clubtile {
+    background: #1C0C5B;
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.clubListContainer_item_photo {
+    width: 40px;
+    height: 40px;
+    margin: 20px;
+}
+
+.clubListContainer_item_data {
+    margin-left: 15px;
+    margin-right: 10px;
+    color: #D4ECDD;
+    font-size: 16px;
+}
+
+.clubListContainer_item_datadetail {
+    margin: 0;
+}
+
+.mainNavBar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    color: #F0A500;
+}
+
+.nav_icon {
+    height: 4vh;
+    padding-top: 2vh;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 540px) {
+    .mainNavBar {
+        width: 100%;
+    }
+
+    .nav_icon {
+        width: 20%;
+        margin-right: 0;
+    }
+
+    .clubListContainer_item_photo {
+        margin: 4px;
+    }
+} 

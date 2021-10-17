@@ -1,0 +1,20 @@
+@font-face {
+  font-family: Oswald;
+  src: url('./assets/fonts/Oswald-Regular.ttf');
+}
+
+body {
+  margin: 0;
+  font-family: Oswald;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+html, body {
+  height: 100%;
+}
