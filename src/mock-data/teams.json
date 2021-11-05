@@ -52,21 +52,21 @@
     "selected": true,
     "players": [],
     "clubBudget": 400,
-    "club": "Team 10",
-    "captain": "Vishvam Pawar"
+    "club": "Rangers",
+    "captain": "Sampreeti Saha"
   },
   {
     "selected": true,
     "players": [],
     "clubBudget": 400,
-    "club": "Team 2",
-    "captain": "Atharva Kulkarni"
+    "club": "Debuggers",
+    "captain": "Yash Sarda"
   },
   {
     "selected": true,
     "players": [],
     "clubBudget": 400,
-    "club": "Team 6",
-    "captain": "Monika Priyadarshini"
+    "club": "Maverics",
+    "captain": "Akshad Agrawal"
   }
 ]

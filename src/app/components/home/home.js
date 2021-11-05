@@ -177,7 +177,7 @@ class Home extends Component {
             Captain - <font color="gold">{club.captain}</font>
           </p>
           <p className={local.clubListContainer_item_datadetail}>
-            Budget: <font color="gold">{club.clubBudget}</font> Points
+            Budget: <font color="gold">{club.clubBudget}</font> Crores
           </p>
           <p className={local.clubListContainer_item_datadetail}>
             Members: <font color="gold">{club.players.length}</font>

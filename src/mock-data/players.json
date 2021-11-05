@@ -2,7 +2,7 @@
   {
     "active": true,
     "passPlayer": true,
-    "basePrice": 40,
+    "basePrice": 20,
     "name": "Pratik D",
     "year": "2nd",
     "branch": "IT",
@@ -13,7 +13,7 @@
   {
     "active": true,
     "passPlayer": true,
-    "basePrice": 40,
+    "basePrice": 20,
     "name": "Janhvi Sawant ",
     "year": "4th",
     "branch": "ENTC",
@@ -24,7 +24,7 @@
   {
     "active": true,
     "passPlayer": true,
-    "basePrice": 40,
+    "basePrice": 20,
     "name": "Krishna Chidrawar",
     "year": "2nd",
     "branch": "ENTC",
@@ -35,7 +35,7 @@
   {
     "active": true,
     "passPlayer": true,
-    "basePrice": 40,
+    "basePrice": 20,
     "name": "Atharva Prakash Joshi",
     "year": "2nd",
     "branch": "CS",
@@ -46,7 +46,7 @@
   {
     "active": true,
     "passPlayer": true,
-    "basePrice": 40,
+    "basePrice": 20,
     "name": "akshay tuptewar",
     "year": "2nd",
     "branch": "ENTC",
@@ -57,7 +57,7 @@
   {
     "active": true,
     "passPlayer": true,
-    "basePrice": 40,
+    "basePrice": 20,
     "name": "Samir Sanjay Hendre",
     "year": "2nd",
     "branch": "CS",
@@ -68,7 +68,7 @@
   {
     "active": true,
     "passPlayer": true,
-    "basePrice": 40,
+    "basePrice": 20,
     "name": "Pradnya Waghmare",
     "year": "2nd",
     "branch": "ENTC",
@@ -79,7 +79,7 @@
   {
     "active": true,
     "passPlayer": true,
-    "basePrice": 40,
+    "basePrice": 20,
     "name": "Dnyaneshwar Ashok Jangale",
     "year": "2nd",
     "branch": "ENTC",
@@ -90,7 +90,7 @@
   {
     "active": true,
     "passPlayer": true,
-    "basePrice": 40,
+    "basePrice": 20,
     "name": "sumeet ubale",
     "year": "2nd",
     "branch": "CS",
@@ -101,7 +101,7 @@
   {
     "active": true,
     "passPlayer": true,
-    "basePrice": 40,
+    "basePrice": 20,
     "name": "Nidhi Yadav",
     "year": "2nd",
     "branch": "CS",
@@ -112,7 +112,7 @@
   {
     "active": true,
     "passPlayer": true,
-    "basePrice": 40,
+    "basePrice": 20,
     "name": "Prajwal Toundakar",
     "year": "2nd",
     "branch": "CS",
@@ -123,7 +123,7 @@
   {
     "active": true,
     "passPlayer": true,
-    "basePrice": 40,
+    "basePrice": 20,
     "name": "Rajdeep Chavan",
     "year": "2nd",
     "branch": "ENTC",
@@ -134,7 +134,7 @@
   {
     "active": true,
     "passPlayer": true,
-    "basePrice": 40,
+    "basePrice": 20,
     "name": "Suyash Udchan",
     "year": "2nd",
     "branch": "ENTC",
@@ -145,7 +145,7 @@
   {
     "active": true,
     "passPlayer": true,
-    "basePrice": 40,
+    "basePrice": 20,
     "name": "Hemang Barhate ",
     "year": "2nd",
     "branch": "IT",
@@ -156,7 +156,7 @@
   {
     "active": true,
     "passPlayer": true,
-    "basePrice": 40,
+    "basePrice": 20,
     "name": "Omkar Awaje",
     "year": "2nd",
     "branch": "CS",
@@ -167,7 +167,7 @@
   {
     "active": true,
     "passPlayer": true,
-    "basePrice": 40,
+    "basePrice": 20,
     "name": "Kalpesh Baviskar",
     "year": "2nd",
     "branch": "CS",
@@ -178,7 +178,7 @@
   {
     "active": true,
     "passPlayer": true,
-    "basePrice": 40,
+    "basePrice": 20,
     "name": "Prashant Prabhakar Kalyane",
     "year": "2nd",
     "branch": "CS",
@@ -189,7 +189,7 @@
   {
     "active": true,
     "passPlayer": true,
-    "basePrice": 40,
+    "basePrice": 20,
     "name": "Vidhi Sorte",
     "year": "2nd",
     "branch": "CS",
@@ -200,7 +200,7 @@
   {
     "active": true,
     "passPlayer": true,
-    "basePrice": 40,
+    "basePrice": 20,
     "name": "Omkar Kulkarni",
     "year": "2nd",
     "branch": "CS",
@@ -211,7 +211,7 @@
   {
     "active": true,
     "passPlayer": true,
-    "basePrice": 40,
+    "basePrice": 20,
     "name": "Khushi Oswal",
     "year": "2nd",
     "branch": "ENTC",
@@ -222,7 +222,7 @@
   {
     "active": true,
     "passPlayer": true,
-    "basePrice": 40,
+    "basePrice": 20,
     "name": "Sanyog Kalantri",
     "year": "2nd",
     "branch": "IT",
@@ -233,7 +233,7 @@
   {
     "active": true,
     "passPlayer": true,
-    "basePrice": 40,
+    "basePrice": 20,
     "name": "Manish Nawadkar",
     "year": "2nd",
     "branch": "ENTC",
@@ -244,7 +244,7 @@
   {
     "active": true,
     "passPlayer": true,
-    "basePrice": 40,
+    "basePrice": 20,
     "name": "Ruturaj Patil",
     "year": "2nd",
     "branch": "CS",
@@ -255,7 +255,7 @@
   {
     "active": true,
     "passPlayer": true,
-    "basePrice": 40,
+    "basePrice": 20,
     "name": "Amay Dilip Mapari",
     "year": "2nd",
     "branch": "CS",
@@ -266,7 +266,7 @@
   {
     "active": true,
     "passPlayer": true,
-    "basePrice": 40,
+    "basePrice": 20,
     "name": "Piyush Bonde",
     "year": "2nd",
     "branch": "IT",
@@ -277,7 +277,7 @@
   {
     "active": true,
     "passPlayer": true,
-    "basePrice": 40,
+    "basePrice": 20,
     "name": "Yash Dhavale",
     "year": "2nd",
     "branch": "IT",
@@ -288,7 +288,7 @@
   {
     "active": true,
     "passPlayer": true,
-    "basePrice": 40,
+    "basePrice": 20,
     "name": "Abhay Bhat",
     "year": "2nd",
     "branch": "IT",
@@ -299,7 +299,7 @@
   {
     "active": true,
     "passPlayer": true,
-    "basePrice": 40,
+    "basePrice": 20,
     "name": "Rohan Survase",
     "year": "2nd",
     "branch": "IT",
@@ -310,7 +310,7 @@
   {
     "active": true,
     "passPlayer": true,
-    "basePrice": 40,
+    "basePrice": 20,
     "name": "Nikita Karande",
     "year": "2nd",
     "branch": "IT",
@@ -321,7 +321,7 @@
   {
     "active": true,
     "passPlayer": true,
-    "basePrice": 40,
+    "basePrice": 20,
     "name": "Sanket Kittad",
     "year": "2nd",
     "branch": "IT",
@@ -332,7 +332,7 @@
   {
     "active": true,
     "passPlayer": true,
-    "basePrice": 40,
+    "basePrice": 20,
     "name": "Piyusha Khandare ",
     "year": "2nd",
     "branch": "CS",
@@ -343,7 +343,7 @@
   {
     "active": true,
     "passPlayer": true,
-    "basePrice": 40,
+    "basePrice": 20,
     "name": "Samarth Subhash Lawate",
     "year": "2nd",
     "branch": "ENTC",
@@ -354,7 +354,7 @@
   {
     "active": true,
     "passPlayer": true,
-    "basePrice": 40,
+    "basePrice": 20,
     "name": "Om Parulekar",
     "year": "2nd",
     "branch": "ENTC",
@@ -365,7 +365,7 @@
   {
     "active": true,
     "passPlayer": true,
-    "basePrice": 40,
+    "basePrice": 20,
     "name": "Pratik Sonawane",
     "year": "2nd",
     "branch": "IT",
@@ -376,7 +376,7 @@
   {
     "active": true,
     "passPlayer": true,
-    "basePrice": 40,
+    "basePrice": 20,
     "name": "RAJVARDHAN MANE",
     "year": "2nd",
     "branch": "IT",
@@ -387,7 +387,7 @@
   {
     "active": true,
     "passPlayer": true,
-    "basePrice": 40,
+    "basePrice": 20,
     "name": "Sunandan Gupta",
     "year": "2nd",
     "branch": "CS",
@@ -398,7 +398,7 @@
   {
     "active": true,
     "passPlayer": true,
-    "basePrice": 40,
+    "basePrice": 20,
     "name": "Vaibhav Mahajan",
     "year": "2nd",
     "branch": "IT",
@@ -409,7 +409,7 @@
   {
     "active": true,
     "passPlayer": true,
-    "basePrice": 40,
+    "basePrice": 20,
     "name": "Sarish Inamdar",
     "year": "2nd",
     "branch": "CS",
@@ -420,7 +420,7 @@
   {
     "active": true,
     "passPlayer": true,
-    "basePrice": 40,
+    "basePrice": 20,
     "name": "Aditya Anand",
     "year": "2nd",
     "branch": "ENTC",
@@ -431,7 +431,7 @@
   {
     "active": true,
     "passPlayer": true,
-    "basePrice": 40,
+    "basePrice": 20,
     "name": "Rahul Amrutkar",
     "year": "2nd",
     "branch": "ENTC",
@@ -445,7 +445,7 @@
   {
     "active": true,
     "passPlayer": true,
-    "basePrice": 40,
+    "basePrice": 20,
     "name": "Shridhar",
     "year": "2nd",
     "branch": "IT",
@@ -456,7 +456,7 @@
   {
     "active": true,
     "passPlayer": true,
-    "basePrice": 40,
+    "basePrice": 20,
     "name": "kushal vasant bhattad",
     "year": "2nd",
     "branch": "IT",
@@ -467,7 +467,7 @@
   {
     "active": true,
     "passPlayer": true,
-    "basePrice": 40,
+    "basePrice": 20,
     "name": "Aniket thakut",
     "year": "2nd",
     "branch": "IT",
@@ -478,7 +478,7 @@
   {
     "active": true,
     "passPlayer": true,
-    "basePrice": 40,
+    "basePrice": 20,
     "name": "Sanika Bhagwan Patil",
     "year": "2nd",
     "branch": "IT",
@@ -489,7 +489,7 @@
   {
     "active": true,
     "passPlayer": true,
-    "basePrice": 40,
+    "basePrice": 20,
     "name": "Prathamesh MITKAR",
     "year": "2nd",
     "branch": "IT",
@@ -500,7 +500,7 @@
   {
     "active": true,
     "passPlayer": true,
-    "basePrice": 40,
+    "basePrice": 20,
     "name": "Samarth",
     "year": "2nd",
     "branch": "CS",
@@ -511,7 +511,7 @@
   {
     "active": true,
     "passPlayer": true,
-    "basePrice": 40,
+    "basePrice": 20,
     "name": "Swanand Purkar",
     "year": "2nd",
     "branch": "ENTC",
@@ -522,7 +522,7 @@
   {
     "active": true,
     "passPlayer": true,
-    "basePrice": 40,
+    "basePrice": 20,
     "name": "Manasi Lad",
     "year": "2nd",
     "branch": "ENTC",
@@ -533,7 +533,7 @@
   {
     "active": true,
     "passPlayer": true,
-    "basePrice": 40,
+    "basePrice": 20,
     "name": "Nehil Gajare",
     "year": "2nd",
     "branch": "CS",
@@ -544,7 +544,7 @@
   {
     "active": true,
     "passPlayer": true,
-    "basePrice": 40,
+    "basePrice": 20,
     "name": "Om Shinde",
     "year": "2nd",
     "branch": "ENTC",
@@ -555,7 +555,7 @@
   {
     "active": true,
     "passPlayer": true,
-    "basePrice": 40,
+    "basePrice": 20,
     "name": "PRATIK VISHNU BHIL",
     "year": "2nd",
     "branch": "ENTC",
@@ -566,7 +566,7 @@
   {
     "active": true,
     "passPlayer": true,
-    "basePrice": 40,
+    "basePrice": 20,
     "name": "Ajay Patil",
     "year": "2nd",
     "branch": "CS",
@@ -577,7 +577,7 @@
   {
     "active": true,
     "passPlayer": true,
-    "basePrice": 40,
+    "basePrice": 20,
     "name": "Mahek Mulla",
     "year": "2nd",
     "branch": "IT",
@@ -588,7 +588,7 @@
   {
     "active": true,
     "passPlayer": true,
-    "basePrice": 40,
+    "basePrice": 20,
     "name": "Akahay Bachkar",
     "year": "2nd",
     "branch": "CS",
@@ -599,7 +599,7 @@
   {
     "active": true,
     "passPlayer": true,
-    "basePrice": 40,
+    "basePrice": 20,
     "name": "Sakshi Ghanashyam Bhavsar",
     "year": "2nd",
     "branch": "IT",
@@ -614,7 +614,7 @@
   {
     "active": true,
     "passPlayer": true,
-    "basePrice": 40,
+    "basePrice": 20,
     "name": "Omkar Pawar",
     "year": "2nd",
     "branch": "IT",
@@ -625,7 +625,7 @@
   {
     "active": true,
     "passPlayer": true,
-    "basePrice": 40,
+    "basePrice": 20,
     "name": "Tejas Ambekar",
     "year": "2nd",
     "branch": "IT",
@@ -636,7 +636,7 @@
   {
     "active": true,
     "passPlayer": true,
-    "basePrice": 40,
+    "basePrice": 20,
     "name": "Naman Damani",
     "year": "2nd",
     "branch": "IT",
@@ -647,7 +647,7 @@
   {
     "active": true,
     "passPlayer": true,
-    "basePrice": 40,
+    "basePrice": 20,
     "name": "Sagar Patil",
     "year": "2nd",
     "branch": "IT",
@@ -658,7 +658,7 @@
   {
     "active": true,
     "passPlayer": true,
-    "basePrice": 40,
+    "basePrice": 20,
     "name": "Harshwardhan Atkare",
     "year": "2nd",
     "branch": "CS",
@@ -669,7 +669,7 @@
   {
     "active": true,
     "passPlayer": true,
-    "basePrice": 40,
+    "basePrice": 20,
     "name": "Pragun Naik",
     "year": "2nd",
     "branch": "ENTC",
@@ -680,7 +680,7 @@
   {
     "active": true,
     "passPlayer": true,
-    "basePrice": 40,
+    "basePrice": 20,
     "name": "Rajas Hemant Doshi ",
     "year": "2nd",
     "branch": "ENTC",
@@ -691,7 +691,7 @@
   {
     "active": true,
     "passPlayer": true,
-    "basePrice": 40,
+    "basePrice": 20,
     "name": "Soham Sheth",
     "year": "2nd",
     "branch": "IT",
@@ -702,7 +702,7 @@
   {
     "active": true,
     "passPlayer": true,
-    "basePrice": 40,
+    "basePrice": 20,
     "name": "Jahan Chaware",
     "year": "2nd",
     "branch": "CS",
@@ -713,7 +713,7 @@
   {
     "active": true,
     "passPlayer": true,
-    "basePrice": 40,
+    "basePrice": 20,
     "name": "Abhishek Jadhav",
     "year": "2nd",
     "branch": "IT",
@@ -724,7 +724,7 @@
   {
     "active": true,
     "passPlayer": true,
-    "basePrice": 40,
+    "basePrice": 20,
     "name": "Mihir Mahadik",
     "year": "2nd",
     "branch": "ENTC",
@@ -735,7 +735,7 @@
   {
     "active": true,
     "passPlayer": true,
-    "basePrice": 40,
+    "basePrice": 20,
     "name": "Atharva Ravindra Joshi",
     "year": "2nd",
     "branch": "CS",
@@ -746,7 +746,7 @@
   {
     "active": true,
     "passPlayer": true,
-    "basePrice": 40,
+    "basePrice": 20,
     "name": "Chinmay gate",
     "year": "2nd",
     "branch": "ENTC",
@@ -757,7 +757,7 @@
   {
     "active": true,
     "passPlayer": true,
-    "basePrice": 40,
+    "basePrice": 20,
     "name": "Mansi Yelgulwar",
     "year": "2nd",
     "branch": "IT",
@@ -768,7 +768,7 @@
   {
     "active": true,
     "passPlayer": true,
-    "basePrice": 40,
+    "basePrice": 20,
     "name": "Manas Deshpande",
     "year": "2nd",
     "branch": "CS",
@@ -779,7 +779,7 @@
   {
     "active": true,
     "passPlayer": true,
-    "basePrice": 40,
+    "basePrice": 20,
     "name": "Sumit Bharat Waman",
     "year": "2nd",
     "branch": "CS",
@@ -790,7 +790,7 @@
   {
     "active": true,
     "passPlayer": true,
-    "basePrice": 40,
+    "basePrice": 20,
     "name": "Sakahi Dattatray Jagtap",
     "year": "2nd",
     "branch": "ENTC",
@@ -801,7 +801,7 @@
   {
     "active": true,
     "passPlayer": true,
-    "basePrice": 40,
+    "basePrice": 20,
     "name": "Isha Vijay Dighe",
     "year": "2nd",
     "branch": "CS",
@@ -812,7 +812,7 @@
   {
     "active": true,
     "passPlayer": true,
-    "basePrice": 40,
+    "basePrice": 20,
     "name": "Sarthak Krishnat Hupare ",
     "year": "2nd",
     "branch": "CS",
@@ -823,7 +823,7 @@
   {
     "active": true,
     "passPlayer": true,
-    "basePrice": 40,
+    "basePrice": 20,
     "name": "Purvi Toshniwal",
     "year": "2nd",
     "branch": "CS",
@@ -834,7 +834,7 @@
   {
     "active": true,
     "passPlayer": true,
-    "basePrice": 40,
+    "basePrice": 20,
     "name": "Abhijeet Ankush Dhane",
     "year": "2nd",
     "branch": "CS",
@@ -845,7 +845,7 @@
   {
     "active": true,
     "passPlayer": true,
-    "basePrice": 40,
+    "basePrice": 20,
     "name": "Sudarshan Joshi",
     "year": "2nd",
     "branch": "CS",
@@ -856,7 +856,7 @@
   {
     "active": true,
     "passPlayer": true,
-    "basePrice": 40,
+    "basePrice": 20,
     "name": "Avishkar Kakade",
     "year": "2nd",
     "branch": "CS",
@@ -867,7 +867,7 @@
   {
     "active": true,
     "passPlayer": true,
-    "basePrice": 40,
+    "basePrice": 20,
     "name": "Rohan Jadhav",
     "year": "2nd",
     "branch": "IT",
@@ -878,7 +878,7 @@
   {
     "active": true,
     "passPlayer": true,
-    "basePrice": 40,
+    "basePrice": 20,
     "name": "Wajed Munir Shaikh",
     "year": "3rd",
     "branch": "IT",
@@ -889,7 +889,7 @@
   {
     "active": true,
     "passPlayer": true,
-    "basePrice": 40,
+    "basePrice": 20,
     "name": "Krishnum Khodke",
     "year": "3rd",
     "branch": "ENTC",
@@ -900,7 +900,7 @@
   {
     "active": true,
     "passPlayer": true,
-    "basePrice": 40,
+    "basePrice": 20,
     "name": "Sudarshan Gawale",
     "year": "3rd",
     "branch": "IT",
@@ -911,7 +911,7 @@
   {
     "active": true,
     "passPlayer": true,
-    "basePrice": 40,
+    "basePrice": 20,
     "name": "Pratik Gadhave",
     "year": "3rd",
     "branch": "IT",
@@ -922,7 +922,7 @@
   {
     "active": true,
     "passPlayer": true,
-    "basePrice": 40,
+    "basePrice": 20,
     "name": "Pranav Damedhar",
     "year": "3rd",
     "branch": "ENTC",
@@ -933,7 +933,7 @@
   {
     "active": true,
     "passPlayer": true,
-    "basePrice": 40,
+    "basePrice": 20,
     "name": "MOHAMMAD KAIF KHALIL PATEL",
     "year": "3rd",
     "branch": "CS",
@@ -948,7 +948,7 @@
   {
     "active": true,
     "passPlayer": true,
-    "basePrice": 40,
+    "basePrice": 20,
     "name": "Mahi verma",
     "year": "3rd",
     "branch": "CS",
@@ -959,7 +959,7 @@
   {
     "active": true,
     "passPlayer": true,
-    "basePrice": 40,
+    "basePrice": 20,
     "name": "Shraddha Wakchaure",
     "year": "3rd",
     "branch": "IT",
@@ -970,7 +970,7 @@
   {
     "active": true,
     "passPlayer": true,
-    "basePrice": 40,
+    "basePrice": 20,
     "name": "Manav Majithia",
     "year": "3rd",
     "branch": "ENTC",
@@ -981,7 +981,7 @@
   {
     "active": true,
     "passPlayer": true,
-    "basePrice": 40,
+    "basePrice": 20,
     "name": "Soham Patil",
     "year": "3rd",
     "branch": "IT",
@@ -992,7 +992,7 @@
   {
     "active": true,
     "passPlayer": true,
-    "basePrice": 40,
+    "basePrice": 20,
     "name": "Siddharth Bora",
     "year": "3rd",
     "branch": "IT",
@@ -1003,7 +1003,7 @@
   {
     "active": true,
     "passPlayer": true,
-    "basePrice": 40,
+    "basePrice": 20,
     "name": "Vaibhav Sanjay Bichave",
     "year": "3rd",
     "branch": "IT",
@@ -1014,8 +1014,8 @@
   {
     "active": true,
     "passPlayer": true,
-    "basePrice": 40,
-    "name": "disha4091@gmail.com",
+    "basePrice": 20,
+    "name": "Disha Chavan",
     "year": "3rd",
     "branch": "IT",
     "codeforces": 0,
@@ -1025,7 +1025,7 @@
   {
     "active": true,
     "passPlayer": true,
-    "basePrice": 40,
+    "basePrice": 20,
     "name": "Pranav Rajendra Shirke",
     "year": "3rd",
     "branch": "IT",
@@ -1036,7 +1036,7 @@
   {
     "active": true,
     "passPlayer": true,
-    "basePrice": 40,
+    "basePrice": 20,
     "name": "Pankaj Atram",
     "year": "3rd",
     "branch": "IT",
@@ -1047,7 +1047,7 @@
   {
     "active": true,
     "passPlayer": true,
-    "basePrice": 40,
+    "basePrice": 20,
     "name": "Abhishek Chaudhari",
     "year": "3rd",
     "branch": "ENTC",
@@ -1058,7 +1058,7 @@
   {
     "active": true,
     "passPlayer": true,
-    "basePrice": 40,
+    "basePrice": 20,
     "name": "Pratik Tanawade",
     "year": "3rd",
     "branch": "ENTC",
@@ -1069,7 +1069,7 @@
   {
     "active": true,
     "passPlayer": true,
-    "basePrice": 40,
+    "basePrice": 20,
     "name": "Bansi Ravindra Shelke",
     "year": "3rd",
     "branch": "ENTC",
@@ -1080,7 +1080,7 @@
   {
     "active": true,
     "passPlayer": true,
-    "basePrice": 40,
+    "basePrice": 20,
     "name": "Rupesh Dharme",
     "year": "3rd",
     "branch": "CS",
@@ -1091,7 +1091,7 @@
   {
     "active": true,
     "passPlayer": true,
-    "basePrice": 40,
+    "basePrice": 20,
     "name": " Sofiyan Pathan",
     "year": "3rd",
     "branch": "ENTC",
@@ -1102,7 +1102,7 @@
   {
     "active": true,
     "passPlayer": true,
-    "basePrice": 40,
+    "basePrice": 20,
     "name": "Vaishnavi Bhujbal",
     "year": "3rd",
     "branch": "CS",
@@ -1113,7 +1113,7 @@
   {
     "active": true,
     "passPlayer": true,
-    "basePrice": 40,
+    "basePrice": 20,
     "name": "Rajesh Gunderao Dhadake",
     "year": "3rd",
     "branch": "ENTC",
@@ -1124,7 +1124,7 @@
   {
     "active": true,
     "passPlayer": true,
-    "basePrice": 40,
+    "basePrice": 20,
     "name": "Yash Subhash Behare",
     "year": "3rd",
     "branch": "IT",
@@ -1135,7 +1135,7 @@
   {
     "active": true,
     "passPlayer": true,
-    "basePrice": 40,
+    "basePrice": 20,
     "name": "Avdhoot Hapse",
     "year": "3rd",
     "branch": "CS",
@@ -1146,7 +1146,7 @@
   {
     "active": true,
     "passPlayer": true,
-    "basePrice": 40,
+    "basePrice": 20,
     "name": "Prerna Rathi",
     "year": "3rd",
     "branch": "IT",
@@ -1162,29 +1162,34 @@
   {
     "active": true,
     "passPlayer": true,
-    "basePrice": 40,
-    "name": "Akshad Agrawal",
-    "year": "4th",
-    "branch": "IT",
-    "codeforces": 0,
-    "codechef": 0,
-    "achievements": []
-  },
-  {
-    "active": true,
-    "passPlayer": true,
-    "basePrice": 40,
-    "name": "Sampreeti Saha ",
-    "year": "4th",
+    "basePrice": 20,
+    "name": "Atharva Kulkarni",
+    "year": "3rd",
     "branch": "ENTC",
-    "codeforces": 0,
-    "codechef": 1556,
-    "achievements": ["Solved 100+ problems on codechef"]
+    "codeforces": 1484,
+    "codechef": 1888,
+    "achievements": [
+      "Global rank 40/6000 in CodeChef Starters",
+      "Global rank 829/20000 in codeforces div3",
+      "Global rank 1631/10000 in Google kickstart round F",
+      "Solved over 1000+ problems on various coding platforms"
+    ]
   },
   {
     "active": true,
     "passPlayer": true,
-    "basePrice": 40,
+    "basePrice": 20,
+    "name": "Monika Priyadarshini",
+    "year": "3rd",
+    "branch": "ENTC",
+    "codeforces": 1022,
+    "codechef": 1693,
+    "achievements": ["Best rank 293 at CodeChef Starters"]
+  },
+  {
+    "active": true,
+    "passPlayer": true,
+    "basePrice": 20,
     "name": "Vishvam Pawar",
     "year": "2nd",
     "branch": "IT",
@@ -1199,7 +1204,7 @@
   {
     "active": true,
     "passPlayer": true,
-    "basePrice": 40,
+    "basePrice": 20,
     "name": "Bhakti Mahurkar",
     "year": "2nd",
     "branch": "CS",
@@ -1210,18 +1215,18 @@
   {
     "active": true,
     "passPlayer": true,
-    "basePrice": 40,
-    "name": "Yash Vinod Sarda",
-    "year": "2nd",
+    "basePrice": 20,
+    "name": "Vyankatesh Mundada",
+    "year": "4th",
     "branch": "IT",
-    "codeforces": 0,
-    "codechef": 1639,
-    "achievements": ["3 star on codechef"]
+    "codeforces": 1541,
+    "codechef": 1913,
+    "achievements": []
   },
   {
     "active": true,
     "passPlayer": true,
-    "basePrice": 40,
+    "basePrice": 20,
     "name": "Amey Godse",
     "year": "3rd",
     "branch": "IT",
