@@ -33,9 +33,12 @@
 }
 
 .main-container {
-  background-image: url('./assets/images/main-bg.jpeg');
-  background-size: cover;
+  /* background-image: url('./assets/images/main-bg.jpeg'); */
+  /* background-size: cover; */
+  background-image: url(https://www.transparenttextures.com/patterns/climpek.png);
   height: 100vh;
+  overflow-x: hidden !important;
+  background-color: #f9f3f3;
 }
 
 .loadableText {

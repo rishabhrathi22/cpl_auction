@@ -1,5 +1,13 @@
 import React, { Component } from "react";
+import { connect } from "react-redux";
+import { Row, Grid, Col } from "react-flexbox-grid";
+
+// css
 import * as local from "./home.module.css";
+
+// player card flip
+import ReactCardFlip from "react-card-flip";
+
 import {
   fetchAllPlayers,
   updateCurrentPlayer,
@@ -7,13 +15,13 @@ import {
   fetchLocalPlayerData,
   updateLocalPlayerData,
 } from "../../actions";
-import { connect } from "react-redux";
-import { Row, Grid, Col } from "react-flexbox-grid";
+
+// assets
 import Squad from "../../../assets/images/squad.svg";
 import Refresh from "../../../assets/images/refresh.svg";
-import Fixtures from "../../../assets/images/fixture.svg";
 import Auction from "../../../assets/images/auction.svg";
 import List from "../../../assets/images/list.svg";
+import PlayerCard from "../../../assets/images/player_card.png";
 
 class Home extends Component {
   constructor(props) {
@@ -21,11 +29,16 @@ class Home extends Component {
 
     this.state = {
       startNextIndex: 1,
+      isFlipped: false,
     };
+
+    this.handleClick = this.handleClick.bind(this);
   }
 
   componentDidMount() {
     // check if localStorage has club values
+    // console.log(localStorage.getItem("clubs"));
+
     if (!localStorage.getItem("clubs")) {
       this.props.history.push("/teamselect");
       return;
@@ -78,12 +91,12 @@ class Home extends Component {
       this.props.clubs.map((club) => {
         if (club.club === this.props.localPlayerData.currentBidClub) {
           if (club.clubBudget <= 0 || club.players.length === 20) {
-            alert("Current club is out of the bid");
+            alert("Current team is out of the bid");
             endForce = true;
           } else if (
             this.props.localPlayerData.currentPlayerValue > club.clubBudget
           ) {
-            alert("Current club is out of budget");
+            alert("Current team is out of budget");
             endForce = true;
           }
         }
@@ -107,6 +120,9 @@ class Home extends Component {
           this.props.players.currentPlayer,
           this.props.clubs
         );
+
+        console.log(JSON.stringify(this.props.clubs));
+
         localStorage.setItem("clubs", JSON.stringify(this.props.clubs));
       } else {
         alert("Purchase price cannot be less than base price.");
@@ -133,6 +149,10 @@ class Home extends Component {
     });
   }
 
+  handleClick(e) {
+    this.setState((prevState) => ({ isFlipped: !prevState.isFlipped }));
+  }
+
   renderParticipantClubs(club) {
     return (
       <Col
@@ -142,28 +162,28 @@ class Home extends Component {
         key={club.club}
         className={local.clubListContainer_item}
       >
-        <div className={local.clubListContainer_item_clubtile}>
-          {/* <img
-            src={club.clubLogo}
-            alt="club-logo"
-            className={local.clubListContainer_item_photo}
-          /> */}
-          <div className={local.clubListContainer_item_data}>
-            <p className={local.clubListContainer_item_datadetail}>
-              <b>
-                {club.club.length > 12
-                  ? club.club.substring(0, 12) + "."
-                  : club.club}
-              </b>
-            </p>
-            <p className={local.clubListContainer_item_datadetail}>
-              Budget: <b>{club.clubBudget}</b> Points
-            </p>
-            <p className={local.clubListContainer_item_datadetail}>
-              Members: <b>{club.players.length}</b>
-            </p>
-          </div>
+        {/* <div className={local.clubListContainer_item_clubtile}> */}
+        <div className={local.clubListContainer_item_data}>
+          <p
+            className={local.clubListContainer_item_datadetail}
+            style={{
+              fontSize: "24px",
+              textTransform: "uppercase",
+            }}
+          >
+            {club.club}
+          </p>
+          <p className={local.clubListContainer_item_datadetail}>
+            Captain - <font color="gold">{club.captain}</font>
+          </p>
+          <p className={local.clubListContainer_item_datadetail}>
+            Budget: <font color="gold">{club.clubBudget}</font> Points
+          </p>
+          <p className={local.clubListContainer_item_datadetail}>
+            Members: <font color="gold">{club.players.length}</font>
+          </p>
         </div>
+        {/* </div> */}
       </Col>
     );
   }
@@ -171,16 +191,7 @@ class Home extends Component {
   renderNextlist(player) {
     return (
       <div key={player.name} className={local.nextContainer_item}>
-        <img
-         
-          alt="player"
-          className={local.nextContainer_item_playerphoto}
-        />
-        <img
-          src={player.defaultClubPhoto}
-          alt="player"
-          className={local.nextContainer_item_clubphoto}
-        />
+        <font>{player.name}</font>
       </div>
     );
   }
@@ -191,13 +202,22 @@ class Home extends Component {
 
   render() {
     if (!this.props.players.currentPlayer) {
-      return <div>Fetching all the data...</div>;
+      // this.navigateTo("squad");
+      return <div>Go To Squads</div>;
     }
 
     return (
       <Grid fluid style={{ margin: 0, padding: 0, overflowX: "hidden" }}>
+        {/* navbar */}
         <Row className={local.navBar}>
-          <Col xs={12} lg={12} md={12}>
+          <Col xs={12} lg={2} md={3}>
+            <div className={local.heading}>
+              <h1 style={{ marginBottom: "10%", paddingBottom: "15%" }}>
+                PCPL Auction
+              </h1>
+            </div>
+          </Col>
+          <Col xs={12} lg={10} md={9}>
             <div className={local.mainNavBar}>
               <img
                 src={Auction}
@@ -206,102 +226,135 @@ class Home extends Component {
                 onClick={() => this.navigateTo("")}
               />
               <img
-                src={Refresh}
-                alt="refresh"
-                className={local.nav_icon}
-                onClick={() => this.navigateTo("teamselect")}
-              />
-              {/* <img
                 src={List}
                 alt="list"
                 className={local.nav_icon}
                 onClick={() => this.navigateTo("list")}
-              /> */}
+              />
               <img
                 src={Squad}
                 alt="squad"
                 className={local.nav_icon}
                 onClick={() => this.navigateTo("squad")}
               />
-              {/* <img
-                src={Fixtures}
-                alt="fixture"
+              <img className={local.nav_icon} />
+              <img className={local.nav_icon} />
+              <img
+                src={Refresh}
+                alt="refresh"
                 className={local.nav_icon}
-                onClick={() => this.navigateTo("fixture")}
-              /> */}
+                onClick={() => this.navigateTo("teamselect")}
+              />
             </div>
           </Col>
         </Row>
+
         <Row className={local.homeMainContainer}>
+          {/* buy sell box */}
           <Col xs={12} lg={5} md={5}>
-            <div className={local.playerContainer}>
-              <h4 className={local.playerContainer_title}>CURRENT PLAYER</h4>
-              <p className={local.playerContainer_subtitle}>Confirm your bid</p>
-              <div className={local.playerContainer_currentPlayer}>
-                <p className={local.playerContainer_currentPlayer_name}>
-                  {this.props.players.currentPlayer.name}
-                </p>
-                {/* <div className={local.playerContainer_currentPlayer_image}>
-                  <img
-                    // src={this.props.players.currentPlayer.profilePhoto}
-                    src={pImage}
-                    alt="player"
-                    className={local.playerContainer_currentPlayer_photo}
-                  />
-                  <img
-                    // src={this.props.players.currentPlayer.defaultClubPhoto}
-                    src={cImage}
-                    alt="club"
-                    className={local.playerContainer_currentPlayer_club}
-                  />
-                </div> */}
-                <div className={local.playerContainer_currentPlayer_data}>
-                  <p>
-                    <b>
-                      {this.props.players.currentPlayer.year}{" "}YEAR{" "}
-                      
-                    </b>
-                  </p>
-                  <p>
-                      <b>{this.props.players.currentPlayer.languages}</b>
-                  </p>
-                </div>
+            <ReactCardFlip
+              isFlipped={this.state.isFlipped}
+              flipDirection="horizontal"
+            >
+              {/* front side */}
+              <div className={local.imageContainer}>
+                <img
+                  src={PlayerCard}
+                  onClick={this.handleClick}
+                  style={{ height: "500px" }}
+                />
               </div>
-              <input
-                className={local.playerContainer_bidInput}
-                type="text"
-                onChange={(e) => this.valueChange(e, "CurrentPrice")}
-                value={this.props.localPlayerData.currentPlayerValue}
-              />
-              <select
-                className={local.playerContainer_clubSelect}
-                onChange={(e) => this.valueChange(e, "ClubChange")}
-              >
-                {this.props.clubs.map((club) => {
-                  return (
-                    <option key={club.club} value={club.club}>
-                      {club.club}
-                    </option>
-                  );
-                })}
-              </select>
-              <br />
-              <button
-                className={local.playerContainer_confirmbtn}
-                onClick={() => this.updatePlayer("sold")}
-              >
-                SELL
-              </button>
-              <button
-                className={local.playerContainer_confirmbtn}
-                onClick={() => this.updatePlayer("pass")}
-                style={{ background: "rgba(220, 20, 60, 0.7" }}
-              >
-                PASS
-              </button>
-            </div>
-    
+
+              {/* back side */}
+              <div className={local.playerContainer}>
+                <div
+                  className={local.playerContainer_currentPlayer}
+                  onClick={this.handleClick}
+                >
+                  <p className={local.playerContainer_currentPlayer_name}>
+                    {this.props.players.currentPlayer.name}
+                  </p>
+                  <div className={local.playerContainer_currentPlayer_data}>
+                    <p>
+                      <b>Branch - {this.props.players.currentPlayer.branch}</b>
+                      <br />
+                      <b>{this.props.players.currentPlayer.year} year</b>
+                      <br />
+                      <br />
+                      Max Codeforces rating -{" "}
+                      <b>{this.props.players.currentPlayer.codeforces}</b>
+                      <br />
+                      Max CodeChef Rating -{" "}
+                      <b>{this.props.players.currentPlayer.codechef}</b>
+                    </p>
+                    {this.props.players.currentPlayer.achievements.length >
+                    0 ? (
+                      <p>
+                        <b>Achievements</b>
+                        <br />
+                        {this.props.players.currentPlayer.achievements.map(
+                          (element) => {
+                            return <font>{element}</font>;
+                          }
+                        )}
+                      </p>
+                    ) : (
+                      ""
+                    )}
+                  </div>
+                </div>
+                <br />
+                <input
+                  className={local.playerContainer_bidInput}
+                  type="text"
+                  onChange={(e) => this.valueChange(e, "CurrentPrice")}
+                  value={this.props.localPlayerData.currentPlayerValue}
+                />
+                <select
+                  className={local.playerContainer_clubSelect}
+                  onChange={(e) => this.valueChange(e, "ClubChange")}
+                >
+                  {this.props.clubs.map((club) => {
+                    return (
+                      <option key={club.club} value={club.club}>
+                        {club.club}
+                      </option>
+                    );
+                  })}
+                </select>
+                <br />
+                <br />
+                <button
+                  className={local.playerContainer_confirmbtn}
+                  onClick={() => {
+                    this.handleClick();
+                    this.updatePlayer("sold");
+                  }}
+                >
+                  SELL
+                </button>
+                <button
+                  className={local.playerContainer_confirmbtn}
+                  onClick={() => {
+                    this.handleClick();
+                    this.updatePlayer("pass");
+                  }}
+                  style={{ background: "rgba(220, 20, 60, 0.7" }}
+                >
+                  PASS
+                </button>
+              </div>
+            </ReactCardFlip>
+            {/* <div>
+              <Row className={local.nextContainer}>
+                {this.props.players.nextPlayers.map((player) =>
+                  this.renderNextlist(player)
+                )}
+              </Row>
+            </div> */}
           </Col>
+
+          {/* budget box */}
           <Col xs={12} lg={7} md={7}>
             <div className={local.clubContainer}>
               <Row className={local.clubListContainer}>
